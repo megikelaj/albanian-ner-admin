@@ -33,11 +33,11 @@ Following the questions of *Datasheets for Datasets* (Gebru et al., Communicatio
 | | | Other | 42 |
 | | | Strategies | 29 |
 
-**Is it a sample?** Yes. The full corpus has about 30,000 sentences from 53 documents. Documents, not sentences, were split into a test side (18 documents) and a training side (35 documents), about 30% of the documents of each country and type group going to the test side (all North Macedonian documents, as there were too few to train on). Test sentences were drawn in turn from each test document up to a quota per group, so that no long session dominates. Table rows, JSON fragments and all-capital headings were excluded.
+**Is it a sample?** Yes. The full corpus has 30,346 sentences from 53 documents. Documents, not sentences, were split into a test side (18 documents) and a training side (35 documents), about 30% of the documents of each country and type group going to the test side (all North Macedonian documents, as there were too few to train on). Test sentences were drawn in turn from each test document up to a quota per group, so that no long session dominates. Table rows, JSON fragments and all-capital headings were excluded. The full list of documents and their side is in data/split_documents.csv.
 
-**What does each instance contain?** `id` (source document and position), `country` (AL, XK, MK), `doc_type`, `tokens`, `ner_tags` (IOB2).
+**What does each instance contain?**  `id`, `country` (AL, XK, MK), `doc_type`, `tokens`, `ner_tags`  (IOB2). The id has the form doc_code-paragraph-sentence. The doc_code is the first 8 characters of the MD5 hash of the original file, so anyone who downloads the same file from the source site can check which document a sentence comes from. data/split_documents.csv gives the file name and source site for every doc_code.
 
-**Splits.** This release contains **only a test split**. There are no gold training or validation splits: the 22,000 sentences of the training side are not annotated. Systems should be trained on other data (for example WikiANN-sq or AlbNER) and tested here.
+**Splits.** This release contains **only a test split**. There are no gold training or validation splits: the 21,988 sentences of the training side are not annotated. Systems should be trained on other data (for example WikiANN-sq or AlbNER) and tested here.
 
 **Errors and noise.** The data was annotated by one person. Self-agreement on a separate sample of 143 sentences, annotated twice four days apart, was 0.663 exact span F1 (PER 1.000, LOC 0.786, ORG 0.673, MISC 0.267; word-level Cohen's kappa 0.777). Most disagreements were early decisions made before the guidelines were finalised, and the test set was annotated after that point and checked twice with an automatic consistency script. Still, the labels are not perfect, especially for MISC and for long ORG names. One known error (the acronym IQBSUVP, labelled MISC instead of ORG in 4 sentences) was corrected after the first evaluation.
 
@@ -59,7 +59,7 @@ Following the questions of *Datasheets for Datasets* (Gebru et al., Communicatio
 
 **Key annotation decisions.** Flat spans, longest name wins. Inflected forms are annotated as written, including case endings and linking articles (*Ministrisë së Drejtësisë*). Acronyms with case suffixes are one entity (*BERZH-it*). Documents (laws, codes, strategies, the constitution), positions (*Ministri i Shtetit për Diasporën*) and single generic institution words (*Ministrisë*, *Parlamenti*) are not entities; *Kuvendi* and *Qeveria* alone are ORG. Countries are always LOC. *në* + a place name ends a name.
 
-**Raw data.** The unannotated sentence pool and the document-level split are kept by the author and available on request.
+**Raw data.** The document-level split is released as data/split_documents.csv. The unannotated sentence pool (30,346 sentences) and the downloaded source files are kept by the author. The source files can be downloaded again from the sites listed above.
 
 ## Uses
 
@@ -71,7 +71,7 @@ Following the questions of *Datasheets for Datasets* (Gebru et al., Communicatio
 
 ## Distribution
 
-**Licence.** Annotations and guidelines: CC BY 4.0. Code: MIT. Source text: information published by Albanian public bodies on opendata.gov.al may be reused under Albania's standard licence for the reuse of public sector information (Law No. 33/2022), with attribution to the source; parliamentary texts are official documents published by the parliaments of Albania, Kosovo and North Macedonia. Please cite the original sources when reusing the text; each sentence `id` identifies its source document.
+**Licence.** Annotations and guidelines: CC BY 4.0. Code: MIT. Source text: information published by Albanian public bodies on opendata.gov.al may be reused under Albania's standard licence for the reuse of public sector information (Law No. 33/2022), with attribution to the source; parliamentary texts are official documents published by the parliaments of Albania, Kosovo and North Macedonia. Please cite the original sources when reusing the text; Thee doc_code at the start of each sentence `id` leads to its source document through data/split_documents.csv.
 
 **Where.** GitHub (code, data, guidelines) and the Hugging Face Hub (dataset and the best fine-tuned model).
 
