@@ -16,7 +16,7 @@ A gold-standard named entity recognition (NER) test set for Albanian institution
 | Document types | transcripts 480, reports 89, laws 51, other 42, strategies 29 |
 | Sources | opendata.gov.al and the document archives of the parliaments of Albania, Kosovo and North Macedonia |
 
-The test sentences come from 18 documents. The training side of the corpus (35 documents, about 22,000 unannotated sentences) was split off by document, so no document contributes to both sides.
+The test sentences come from 18 documents. The training side of the corpus (35 documents, 21,988 unannotated sentences) was split off by document, so no document contributes to both sides. data/split_documents.csv lists all 53 documents, which side each one is on, and the site it came from.
 
 Entity types follow CoNLL-2003 (PER, ORG, LOC, MISC), with Albanian-specific rules for inflected names, linking articles, acronyms with case suffixes (`BERZH-it`), documents (not entities), positions (not entities) and generic institution words. See `guidelines/annotation_guidelines_v1.md`.
 
@@ -25,7 +25,8 @@ Entity types follow CoNLL-2003 (PER, ORG, LOC, MISC), with Albanian-specific rul
 - `DATASHEET.md`: the full datasheet (motivation, composition, collection, labelling, uses, licence, maintenance).
 - `evaluate.py`: scores any prediction file (JSONL or CoNLL) against the test set, with no dependencies: `python evaluate.py my_predictions.jsonl --types PER,ORG,LOC`.
 - `data/test.conll`: one token and its BIO tag per line, a blank line between sentences.
-- `data/test.jsonl`: one sentence per line with `id`, `country`, `doc_type`, `tokens`, `ner_tags`. The `id` identifies the source document and position.
+- `data/test.jsonl`: one sentence per line with id, country, doc_type, tokens, ner_tags. The id has the form doc_code-paragraph-sentence, for example cb9dee28-0500-02.
+- `data/split_documents.csv`: the document-level split. One row per document: doc_code (the first 8 characters of the MD5 hash of the original file, which is also the start of every sentence id), file (the file name as downloaded), source (the site), country, doc_type, split (test or train), sentences_in_pool, sentences_drawn_for_test and sentences_in_release (after the 2 SKIP lines were removed).
 - `guidelines/annotation_guidelines_v1.md`: the full guidelines, hard cases and decision log.
 - `scripts/`: corpus inventory and cleaning, document-level split, rule-based pre-annotation, consistency check, BIO export, self-agreement scoring.
 - `notebooks/albanian_ner_baselines.ipynb`: XLM-R, mDeBERTa-v3 and Glot500 fine-tuned on WikiANN-sq and scored on the test set (Colab, T4).
