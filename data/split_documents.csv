@@ -1,0 +1,54 @@
+doc_code,file,source,country,doc_type,split,sentences_in_pool,sentences_drawn_for_test,sentences_in_release
+f8e74915,0737eea5b3_buletini-2-qershor-2019.pdf,opendata.gov.al,AL,raport,test,848,29,29
+6fc2daeb,088c17bb8f_buletini-vjetor-2018.pdf,opendata.gov.al,AL,raport,test,276,29,28
+064b78ad,1934b4a0bf_strategjia-kombetare-e-diaspores-2018-2024-dhe-plani-i-veprimit-1.pdf,opendata.gov.al,AL,strategji,test,575,30,29
+2bc0a184,2eb9343f07_progr-zhvillimi-2019.docx,opendata.gov.al,AL,tjeter,test,402,29,29
+d38358ff,"202506021312589735Procesverbal, datë 24 2.2025.pdf",parlament.al,AL,transkript,test,412,50,50
+ab7a112e,"202507021123500840Procesverbal, datë 20.06.2025.pdf",parlament.al,AL,transkript,test,713,50,50
+9ff61ce8,202507080843353746Procesverbali i mbledhjes KPJ - 26 qershor 2025.pdf,parlament.al,AL,transkript,test,107,50,50
+9d31faee,202507300813311489Komisioni i Veprimtarise 1.7.2025.pdf,parlament.al,AL,transkript,test,540,50,50
+9ed6ac06,20251121122409939120.10.2025 pj 2 mbledhje e perbashket.pdf,parlament.al,AL,transkript,test,1331,50,50
+6e99f70f,202602131229303759Deklarate dt. 12.2.2026.pdf,parlament.al,AL,tjeter,test,13,13,13
+eb7e6dc3,"202609141248050534Komisioni për Kulturën, Turizmin dhe Diasporën, datë 11.05.2026.pdf",parlament.al,AL,transkript,test,391,50,50
+fd556072,202609151240098905RIA peshkimi - Finale 28.8.2026.pdf,parlament.al,AL,raport,test,495,30,30
+207ee98d,"202611110927030653Procesverbal, datë 14.7.2026.pdf",parlament.al,AL,transkript,test,644,50,50
+62f1c652,202611160816168190Procesverbal KEPF - 7.7.2026 pj 2.pdf,parlament.al,AL,transkript,test,206,50,50
+f8d12961,download (1).pdf,sobranie.mk,MK,ligj,test,22,22,22
+f628afdd,download (2).pdf,sobranie.mk,MK,raport,test,2,2,2
+cb9dee28,2026_10_29_ts_Seanca_mtefPvYCCk.pdf,kuvendikosoves.org,XK,transkript,test,1352,80,80
+09f617df,22Memorandumishpjegues_GThggunYWm.pdf,kuvendikosoves.org,XK,ligj,test,29,29,29
+e016b35c,39025ee526_raporti-mars-2019.pdf,opendata.gov.al,AL,raport,train,587,0,0
+57a886ab,5093748362_buletini-i-mars-2019.pdf,opendata.gov.al,AL,raport,train,91,0,0
+83b31290,ac0b3b927b_raporti-mujor-prill-2019-mb.pdf,opendata.gov.al,AL,raport,train,503,0,0
+62940c11,c97b05790a_raporti-shkurt-2019.pdf,opendata.gov.al,AL,raport,train,380,0,0
+c001dcb2,fc6f396314_raport-janar-2019_mb.pdf,opendata.gov.al,AL,raport,train,278,0,0
+6c37218a,202406181056049566Marrëveshja shqip.pdf,parlament.al,AL,tjeter,train,41,0,0
+dce9df5a,202506100822310592Komisioni i  Veprimtarise 3 .6.2025.pdf,parlament.al,AL,transkript,train,99,0,0
+a09f2de2,202506231124256521Komisioni i Sigurise 3.6.2025.pdf,parlament.al,AL,transkript,train,107,0,0
+8240d90d,"202507091302515651Procesverbal, datë 10.6.2025.pdf",parlament.al,AL,transkript,train,165,0,0
+4ca88e1b,"202606121243191637Procesverbal, datë 4.6.2026.pdf",parlament.al,AL,transkript,train,3727,0,0
+4e964c4a,202609151617177509Urdhër dhe rendi i ditës për seancën plenare 17.9.2026.pdf,parlament.al,AL,tjeter,train,28,0,0
+f7015504,202609161110224443Komisioni i Edukimit 14.04.2026.pdf,parlament.al,AL,transkript,train,176,0,0
+5e975876,"202609161247303851Komisioni për Edukimin, Shkencën dhe Sportet dt 11.2.2026 (1).pdf",parlament.al,AL,transkript,train,630,0,0
+4630ef01,"202609161259111935Procesverbal, datë 14. 04. 2026.pdf",parlament.al,AL,transkript,train,621,0,0
+5c8069b9,202609171312273765Procesverbal N.komision Audit - 18.5.2026.pdf,parlament.al,AL,transkript,train,169,0,0
+af7bbf73,"202610091130091982Procesverbal datë 21.4.2026, ora 10;45.pdf",parlament.al,AL,transkript,train,117,0,0
+f187951c,202610091133571673Procesverbal datë 18.5.2026.pdf,parlament.al,AL,transkript,train,115,0,0
+346398a8,"202610261353150627Komisioni për Edukimin,  10.3.2026.pdf",parlament.al,AL,transkript,train,1082,0,0
+fa9f2cdf,"202610270937456011Procesverbal, datë 8.10.2026.pdf",parlament.al,AL,transkript,train,5098,0,0
+d0c83792,"202610271414382389Procesverbal, datë 13.10.2026.pdf",parlament.al,AL,transkript,train,216,0,0
+8e4229fa,"202610271620435582Urdhër dhe rendi i ditës  Për mbledhjen e seancës plenare të datës 29.10.2026, ora 10 00.pdf",parlament.al,AL,transkript,train,22,0,0
+9ffd6341,"202610301119508196Procesverbal, datë 22.10.2026.pdf",parlament.al,AL,transkript,train,210,0,0
+4766b588,202611091322271682Raporti  i Konsultimit Publik Projektligji i Kontabilitetit Publik- 08.10.2026.pdf,parlament.al,AL,raport,train,77,0,0
+6a458a92,202611091330538922Teksti shqip.pdf,parlament.al,AL,traktat,train,13,0,0
+eb4c3f97,202611121249580530Raport KCLAP Kriptoasetet.pdf,parlament.al,AL,raport,train,51,0,0
+8f226531,202611121251112797Raport KCLAP memorandumi Parisit 05.11.2026.pdf,parlament.al,AL,raport,train,23,0,0
+008d4eee,202611121334336188Komisioni për Kulturën Turizmin dhe Diasporën 20.7.2026.pdf,parlament.al,AL,transkript,train,91,0,0
+fd4148bc,"202611121335406317Komisioni për Kulturën, Turizmin dhe Diasporën 21.7.2026.pdf",parlament.al,AL,transkript,train,1376,0,0
+889a3e54,"202611131006371671vendim nr. 173, dt. 29.10.2026.pdf",parlament.al,AL,vendim,train,11,0,0
+0884265b,202611131315384558Komisioni për Çështjet Ligjore dhe Administratën Publike 15.7.2026.pdf,parlament.al,AL,transkript,train,1024,0,0
+7475baad,202611131316227338Komisioni për Çështjet Ligjore dhe Administratën Publike 23.9.2026 -ok.pdf,parlament.al,AL,transkript,train,1230,0,0
+1a21ed95,202611160715042886Raport KEPF _ Prgj -  Buxheti 2027 - NE PARIM.pdf,parlament.al,AL,raport,train,580,0,0
+8a9c51e4,2026_11_05_ts_Seanca_zrkKgHPzaM.pdf,kuvendikosoves.org,XK,transkript,train,2262,0,0
+dfd88695,Ligjinr.11-L-016_RDsPaFPWYq.pdf,kuvendikosoves.org,XK,ligj,train,5,0,0
+176e547b,ProjektligjiperRregullatorineenergjise_rduVEnansB.pdf,kuvendikosoves.org,XK,ligj,train,783,0,0
