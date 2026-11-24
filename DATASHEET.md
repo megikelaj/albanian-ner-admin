@@ -45,7 +45,7 @@ Following the questions of *Datasheets for Datasets* (Gebru et al., Communicatio
 
 ## Collection process
 
-**How was the data acquired?** Documents were downloaded from opendata.gov.al through the portal's API and from the document archives of the parliaments of Albania, Kosovo and North Macedonia (transcripts, draft laws and explanatory reports). Text was extracted from PDF, Word, Excel and text files.
+**How was the data acquired?** Documents were downloaded from four public sources: the Albanian open data portal (https://opendata.gov.al/datasets-list), through its API; the Assembly of Albania (Kuvendi i Shqipërisë, https://www.parlament.al/doksearch); the Assembly of the Republic of Kosovo (Kuvendi i Republikës së Kosovës, https://www.kuvendikosoves.org); and the Assembly of the Republic of North Macedonia (Kuvendi i Republikës së Maqedonisë së Veriut, https://www.sobranie.mk/home-al.nspx), of which only the Albanian-language versions were used. The parliamentary documents are transcripts, draft laws and explanatory reports. Text was extracted from PDF, Word, Excel and text files.
 
 **Time frame.** Collected in November 2026 (corpus build of 16 November 2026).
 
